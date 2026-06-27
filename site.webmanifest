@@ -1,0 +1,25 @@
+﻿{
+  "name": "کلاس ریاضی صابر ترکیبی",
+  "short_name": "صابر ریاضی",
+  "description": "کلاس جمع‌بندی ریاضی دوازدهم صابر ترکیبی برای امتحان نهایی و کنکور",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0a08",
+  "theme_color": "#0b0a08",
+  "orientation": "portrait-primary",
+  "lang": "fa",
+  "icons": [
+    {
+      "src": "/hero.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/hero.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
