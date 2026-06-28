@@ -24362,7 +24362,7 @@ var konkurExperimental1401DeyGeometryExam = {
 };
 //#endregion
 //#region src/data/konkurExperimental1401DeyRemainingExam.js
-var assetRoot = "/exam-assets/konkur-experimental-1401-dey-remaining";
+var assetRoot$6 = "/exam-assets/konkur-experimental-1401-dey-remaining";
 //#endregion
 //#region src/data/konkurExperimental1401DeyFullExam.js
 var convertedChapterExams = [
@@ -24404,7 +24404,7 @@ var convertedChapterExams = [
 				answer: 0,
 				standardSeconds: 90,
 				explanationText: "پاسخ تشریحی دست‌نویس مدرس زیر همین سؤال آمده است.",
-				explanationImages: [`${assetRoot}/q123-answer.png`]
+				explanationImages: [`${assetRoot$6}/q123-answer.png`]
 			},
 			{
 				id: 137,
@@ -24419,7 +24419,7 @@ var convertedChapterExams = [
 				answer: 0,
 				standardSeconds: 90,
 				explanationText: "پاسخ تشریحی دست‌نویس مدرس زیر همین سؤال آمده است.",
-				explanationImages: [`${assetRoot}/q137-answer.png`]
+				explanationImages: [`${assetRoot$6}/q137-answer.png`]
 			},
 			{
 				id: 138,
@@ -24433,10 +24433,10 @@ var convertedChapterExams = [
 				],
 				answer: 2,
 				standardSeconds: 90,
-				verifiedDiagramImage: `${assetRoot}/q138-diagram.png`,
+				verifiedDiagramImage: `${assetRoot$6}/q138-diagram.png`,
 				sourceExtractedDiagram: true,
 				explanationText: "پاسخ تشریحی دست‌نویس مدرس زیر همین سؤال آمده است.",
-				explanationImages: [`${assetRoot}/q138-answer.png`]
+				explanationImages: [`${assetRoot$6}/q138-answer.png`]
 			},
 			{
 				id: 139,
@@ -24451,7 +24451,7 @@ var convertedChapterExams = [
 				answer: 3,
 				standardSeconds: 90,
 				explanationText: "پاسخ تشریحی دست‌نویس مدرس زیر همین سؤال آمده است.",
-				explanationImages: [`${assetRoot}/q139-answer.png`]
+				explanationImages: [`${assetRoot$6}/q139-answer.png`]
 			},
 			{
 				id: 140,
@@ -24466,7 +24466,7 @@ var convertedChapterExams = [
 				answer: 1,
 				standardSeconds: 90,
 				explanationText: "پاسخ تشریحی دست‌نویس مدرس زیر همین سؤال آمده است.",
-				explanationImages: [`${assetRoot}/q140-answer.png`]
+				explanationImages: [`${assetRoot$6}/q140-answer.png`]
 			}
 		]
 	}
@@ -25302,6 +25302,565 @@ var konkurMath1402DHesabanExam = {
 			sourceExtractedDiagram: true,
 			explanationText: "پاسخ تشریحی دست‌نویس مدرس زیر همین سؤال آمده است.",
 			explanationImages: [`${batch005AssetRoot}/q20-answer.png`]
+		}
+	]
+};
+//#endregion
+//#region src/data/konkurMathFunctionTransferExam.js
+var assetRoot$5 = "/exam-assets/konkur-math-function-transfer";
+var konkurMathFunctionTransferExam = {
+	id: "konkur-math-function-transfer-simulator",
+	category: "شبیه‌ساز کنکور",
+	track: "ریاضی",
+	trackScope: "math",
+	grade: "دوازدهم",
+	chapter: "تابع",
+	lesson: "انتقال تابع",
+	title: "شبیه‌ساز کنکور ریاضی - تابع / انتقال",
+	topic: "انتقال تابع در کنکور سراسری ریاضی",
+	standardMinutes: 6,
+	sourceFile: "کنکور سراسری ریاضی - تفکیک مبحثی حل‌شده / تابع / انتقال",
+	answerSourceFile: "حل تشریحی صابر؛ تصویر پاسخ فقط وقتی کراپ واقعی و خوانا وجود داشته باشد نمایش داده می‌شود.",
+	sourceMode: "typed_question_with_verified_answer",
+	answerMode: "teacher_handwritten_answer_crop_when_available",
+	contentMode: "typed_questions_from_source_review",
+	publishable: true,
+	convertedChapters: [{
+		chapter: "تابع - انتقال",
+		questionCount: 4
+	}],
+	questions: [
+		{
+			id: 139803,
+			sourceId: "R1398K-3",
+			chapter: "تابع",
+			lesson: "انتقال تابع",
+			topic: "انتقال",
+			text: "نمودار تابع y = x² - x - 3 را ۲ واحد به طرف xهای منفی، سپس ۹ واحد به طرف yهای منفی انتقال می‌دهیم. نمودار جدید، در کدام بازه زیر محور xها است؟",
+			options: [
+				"(-۵، ۲)",
+				"(-۵، ۳)",
+				"(-۲، ۳)",
+				"(-۲، ۵)"
+			],
+			answer: 0,
+			standardSeconds: 90,
+			explanationText: "با انتقال ۲ واحد به چپ، x با x + 2 جایگزین می‌شود و با انتقال ۹ واحد به پایین، ۹ واحد کم می‌کنیم. تابع جدید x² + 3x - 10 است؛ ریشه‌ها -۵ و ۲ هستند و چون سهمی رو به بالاست، بین دو ریشه زیر محور x قرار می‌گیرد.",
+			explanationImages: [`${assetRoot$5}/q01-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 139906,
+			sourceId: "R1399D-6",
+			chapter: "تابع",
+			lesson: "انتقال تابع",
+			topic: "انتقال و تقارن",
+			text: "قرینه نمودار تابع f(x)=√x را نسبت به محور yها تعیین کرده، سپس منحنی حاصل را ۴ واحد به سمت راست انتقال می‌دهیم. منحنی اخیر و منحنی اصلی نسبت به کدام خط متقارن هستند؟",
+			options: [
+				"x = ۱",
+				"x = ۱/۵",
+				"x = ۲",
+				"x = ۲/۵"
+			],
+			answer: 2,
+			standardSeconds: 90,
+			explanationText: "قرینه f(x)=√x نسبت به محور yها برابر y=√(-x) است. انتقال ۴ واحد به راست، y=√(4-x) می‌دهد. این نمودار با y=√x نسبت به خط x=2 متقارن است.",
+			explanationImages: [`${assetRoot$5}/q02-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 140011,
+			sourceId: "R1400D-11",
+			chapter: "تابع",
+			lesson: "انتقال تابع",
+			topic: "انتقال و وارون",
+			text: "نمودار منحنی y = √(۴ - x) را k واحد در راستای قائم و ۲ - k واحد در جهت افقی چنان انتقال می‌دهیم که منحنی جدید، وارون تابع خود را در نقطه‌ای با عرض ۱ قطع کند. سپس منحنی حاصل را ۱۱ واحد در راستای قائم به سمت پایین انتقال می‌دهیم. طول نقطه برخورد منحنی به‌دست‌آمده با محور xها کدام است؟",
+			options: [
+				"-۴",
+				"-۳",
+				"۱",
+				"۲"
+			],
+			answer: 2,
+			standardSeconds: 120,
+			explanationText: "برای برخورد تابع با وارون خودش، نقطه برخورد روی خط y=x است؛ پس با عرض ۱، نقطه (۱،۱) بررسی می‌شود. طبق حل منبع، k=0 به‌دست می‌آید و بعد از انتقال نهایی، طول برخورد با محور xها برابر ۱ می‌شود.",
+			explanationImages: [`${assetRoot$5}/q03-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 140012,
+			sourceId: "R1400K-12",
+			chapter: "تابع",
+			lesson: "انتقال تابع",
+			topic: "انتقال و وارون",
+			text: "نمودار منحنی y = √(√x + 3) را k واحد در راستای قائم چنان انتقال می‌دهیم که منحنی جدید، وارون تابع خود را در نقطه‌ای با عرض ۱ قطع کند. سپس منحنی حاصل را نسبت به محور xها قرینه کرده و ۴ واحد در جهت افقی به سمت چپ انتقال می‌دهیم. کدام یک از نقاط زیر روی نمودار منحنی به‌دست‌آمده قرار دارد؟",
+			options: [
+				"(۱ - √۵، ۰)",
+				"(-√۵، ۰)",
+				"(۰، ۱ - √۵)",
+				"(۰، -√۵)"
+			],
+			answer: 2,
+			standardSeconds: 120,
+			explanationText: "چون تابع و وارونش در نقطه‌ای با عرض ۱ همدیگر را قطع می‌کنند، نقطه روی y=x است؛ پس g(1)=1. از √(√1 + 3) + k = 1 داریم k=-1. پس تابع پس از انتقال قائم y=√(√x+3)-1 است. قرینه نسبت به محور xها می‌شود y=1-√(√x+3)، و انتقال ۴ واحد به چپ می‌دهد y=1-√(√(x+4)+3). اگر x=0 باشد، y=1-√5، پس نقطه (۰، ۱ - √۵) روی نمودار است.",
+			explanationImages: [],
+			sourceExtractedDiagram: false
+		}
+	]
+};
+//#endregion
+//#region src/data/konkurMathFunctionInverseExam.js
+var assetRoot$4 = "/exam-assets/konkur-math-function-inverse";
+var konkurMathFunctionInverseExam = {
+	id: "konkur-math-function-inverse-simulator",
+	category: "شبیه‌ساز کنکور",
+	track: "ریاضی",
+	trackScope: "math",
+	grade: "دوازدهم",
+	chapter: "تابع",
+	lesson: "تابع وارون",
+	title: "شبیه‌ساز کنکور ریاضی - تابع / وارون",
+	topic: "تابع وارون در کنکور سراسری ریاضی",
+	standardMinutes: 8,
+	sourceFile: "کنکور سراسری ریاضی - تفکیک مبحثی حل‌شده / تابع / تابع وارون",
+	answerSourceFile: "حل تشریحی صابر - پاسخ هر سؤال زیر همان سؤال",
+	sourceMode: "typed_question_with_source_answer_crop",
+	answerMode: "teacher_handwritten_answer_crop",
+	contentMode: "typed_questions_from_source_review",
+	publishable: true,
+	convertedChapters: [{
+		chapter: "تابع - تابع وارون",
+		questionCount: 5
+	}],
+	questions: [
+		{
+			id: 139905,
+			sourceId: "R1399D-5",
+			chapter: "تابع",
+			lesson: "تابع وارون",
+			topic: "ترکیب تابع وارون",
+			text: "اگر f(x)=x+√x و g(x)=(9x+6)/(1-x) باشند، مقدار (g⁻¹∘f⁻¹)(20) کدام است؟",
+			options: [
+				"۲/۵",
+				"۳/۵",
+				"۲/۳",
+				"۳/۴"
+			],
+			answer: 0,
+			standardSeconds: 95,
+			explanationText: "اگر (g⁻¹∘f⁻¹)(20)=a باشد، یعنی f(g(a))=20. از t+√t=20 مقدار t=16 به‌دست می‌آید، پس g(a)=16. با حل (9a+6)/(1-a)=16 داریم a=۲/۵.",
+			explanationImages: [`${assetRoot$4}/q01-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 139906,
+			sourceId: "R1399K-6",
+			chapter: "تابع",
+			lesson: "تابع وارون",
+			topic: "ترکیب وارون‌ها",
+			text: "با فرض x≥2، اگر f(x)=x²-4x+9 و g(x)=(3-x)/2 باشد، حاصل (f⁻¹∘g⁻¹)(-9) کدام است؟",
+			options: [
+				"۳",
+				"۴",
+				"۵",
+				"۶"
+			],
+			answer: 3,
+			standardSeconds: 95,
+			explanationText: "اول g⁻¹(-9) را پیدا می‌کنیم: از (3-x)/2=-9 داریم x=21. سپس f⁻¹(21) را با شرط x≥2 می‌گیریم؛ x²-4x+9=21، پس x=6 جواب مجاز است.",
+			explanationImages: [`${assetRoot$4}/q02-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 140108,
+			sourceId: "R1401DEY-8",
+			chapter: "تابع",
+			lesson: "تابع وارون",
+			topic: "محل برخورد تابع و وارون",
+			text: "توابع f(x)=log(2x-5) و g(x)=x+√(2x-4) را در نظر بگیرید. اگر نمودار y=g⁻¹∘f⁻¹(x) محور yها را در α قطع کند، مقدار α کدام است؟",
+			options: [
+				"۴ - √۳",
+				"۴ - √۲",
+				"۴ + √۲",
+				"۴ + √۳"
+			],
+			answer: 0,
+			standardSeconds: 110,
+			explanationText: "عرض نقطه برخورد با محور y یعنی x=0. ابتدا f⁻¹(0) را می‌گیریم: log(2a-5)=0، پس a=3. حالا g⁻¹(3) یعنی باید x+√(2x-4)=3 حل شود. جواب مجاز x=4-√3 است.",
+			explanationImages: [`${assetRoot$4}/q03-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 140106,
+			sourceId: "R1401K-6",
+			chapter: "تابع",
+			lesson: "تابع وارون",
+			topic: "وارون تابع قدرمطلقی",
+			text: "تابع با ضابطه y=√((x+1)²)-|3x-6| در یک بازه نزولی است. ضابطه وارون تابع در این بازه کدام است؟",
+			options: [
+				"y=-۱/۲x-۷ ، x≥۲",
+				"y=-۱/۲x+۷/۲ ، x≤۳",
+				"y=-۲x+۱۴ ، x≤۳",
+				"y=-۲x-۱۴/۳ ، x≥۲"
+			],
+			answer: 1,
+			standardSeconds: 115,
+			explanationText: "√((x+1)²)=|x+1| است. در بازه x≥2 داریم |x+1|=x+1 و |3x-6|=3x-6، پس y=-2x+7 و تابع نزولی است. وارون آن y=-x/2+7/2 با دامنه x≤3 می‌شود.",
+			explanationImages: [`${assetRoot$4}/q04-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 1401081,
+			sourceId: "R1401K-8",
+			chapter: "تابع",
+			lesson: "تابع وارون",
+			topic: "تقاطع تابع و وارون",
+			text: "فاصله نقطه تقاطع تابع y=x³+3x-12 با وارون خود، از مبدأ مختصات کدام است؟",
+			options: [
+				"۲√۳",
+				"√۳",
+				"۲√۲",
+				"√۲"
+			],
+			answer: 2,
+			standardSeconds: 90,
+			explanationText: "نقطه تقاطع تابع با وارون خودش روی خط y=x است. پس x³+3x-12=x و در نتیجه x³+2x-12=0. جواب x=2 است، پس نقطه (2,2) و فاصله آن از مبدأ برابر 2√2 است.",
+			explanationImages: [`${assetRoot$4}/q05-answer.png`],
+			sourceExtractedDiagram: false
+		}
+	]
+};
+//#endregion
+//#region src/data/konkurMathFunctionCompositionExam.js
+var assetRoot$3 = "/exam-assets/konkur-math-function-composition";
+var konkurMathFunctionCompositionExam = {
+	id: "konkur-math-function-composition-simulator",
+	category: "شبیه‌ساز کنکور",
+	track: "ریاضی",
+	trackScope: "math",
+	grade: "دوازدهم",
+	chapter: "تابع",
+	lesson: "ترکیب توابع",
+	title: "شبیه‌ساز کنکور ریاضی - تابع / ترکیب توابع",
+	topic: "ترکیب توابع در کنکور سراسری ریاضی",
+	standardMinutes: 7,
+	sourceFile: "کنکور سراسری ریاضی - تفکیک مبحثی حل‌شده / تابع / ترکیب توابع",
+	answerSourceFile: "حل تشریحی صابر - پاسخ هر سؤال زیر همان سؤال",
+	sourceMode: "typed_question_with_source_visual_when_needed",
+	answerMode: "teacher_handwritten_answer_crop",
+	contentMode: "typed_questions_from_source_review",
+	publishable: true,
+	convertedChapters: [{
+		chapter: "تابع - ترکیب توابع",
+		questionCount: 4
+	}],
+	questions: [
+		{
+			id: 139805,
+			sourceId: "R1398D-5",
+			chapter: "تابع",
+			lesson: "ترکیب توابع",
+			topic: "عملیات روی توابع زوج مرتب",
+			text: "اگر f={(۱،۲)،(۲،۵)،(۳،۴)،(۴،۶)} و g={(۲،۳)،(۴،۲)،(۵،۶)،(۳،۱)} باشند، تابع g/(g∘f⁻¹) کدام است؟",
+			options: [
+				"{(۴،۲)،(۵،۲)}",
+				"{(۴،۲)،(۳،۵)}",
+				"{(۵،۲)،(۲،۴)}",
+				"{(۳،۵)،(۲،۴)}"
+			],
+			answer: 0,
+			standardSeconds: 105,
+			explanationText: "ابتدا f⁻¹ را می‌نویسیم و سپس g∘f⁻¹ را روی نقاطی که تعریف دارد می‌سازیم. دامنه مشترک g و g∘f⁻¹ فقط ۴ و ۵ است. نسبت مقدارها در هر دو نقطه برابر ۲ می‌شود؛ پس تابع نهایی {(۴،۲)،(۵،۲)} است.",
+			explanationImages: [`${assetRoot$3}/q01-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 139806,
+			sourceId: "R1398K-6",
+			chapter: "تابع",
+			lesson: "ترکیب توابع",
+			topic: "برد ترکیب توابع",
+			text: "اگر f={(۱،۲)،(۲،۵)،(۳،۴)،(۴،۶)} و g={(۲،۳)،(۴،۲)،(۵،۶)،(۳،۱)} دو تابع باشند، برد تابع (g⁻¹∘f)-f کدام است؟",
+			options: [
+				"{-۱،۴}",
+				"{۲،۳}",
+				"{۳،۴}",
+				"{۲،-۱}"
+			],
+			answer: 3,
+			standardSeconds: 105,
+			explanationText: "اول ترکیب g⁻¹∘f را فقط در نقاطی می‌سازیم که مقدار f داخل دامنه g⁻¹ باشد. سپس با f تفاضل می‌گیریم. زوج‌های نهایی مقدارهای ۲ و -۱ می‌دهند؛ پس برد تابع {۲،-۱} است.",
+			explanationImages: [`${assetRoot$3}/q02-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 140108,
+			sourceId: "R1401D-8",
+			chapter: "تابع",
+			lesson: "ترکیب توابع",
+			topic: "تکرار تابع",
+			text: "اگر f(x)=(√۲ x)/(۳x-√۲) باشد، حاصل f∘f∘f(√۲) کدام است؟",
+			options: [
+				"۱/√۲",
+				"√۲",
+				"۲",
+				"۱/۲"
+			],
+			answer: 0,
+			standardSeconds: 100,
+			explanationText: "تابع از فرم کسری خطی است و طبق حل منبع، f⁻¹=f می‌شود؛ پس ترکیب سه‌باره آن به خود تابع برمی‌گردد. مقدار f(√۲) برابر √۲/۲ است که همان ۱/√۲ است.",
+			explanationImages: [`${assetRoot$3}/q03-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 140114,
+			sourceId: "R1401DEY-14",
+			chapter: "تابع",
+			lesson: "ترکیب توابع",
+			topic: "ترکیب تابع با نمودار",
+			text: "اگر f(x)=|x/2 - 1| و شکل زیر نمودار تابع g(x) باشد، معادله g(f(g(x+2)))=0 چند ریشه دارد؟",
+			options: [
+				"۱",
+				"۲",
+				"۳",
+				"۴"
+			],
+			answer: 1,
+			standardSeconds: 120,
+			verifiedDiagramImage: `${assetRoot$3}/q04-diagram.png`,
+			explanationText: "از شکل، صفر تابع g در ورودی ۲ است؛ پس باید f(g(x+2))=2 شود. با f(u)=|u/2-1|، مقدار u برابر ۶ یا -۲ می‌شود. نمودار g برای این دو مقدار در مجموع دو جواب می‌دهد؛ پس معادله ۲ ریشه دارد.",
+			explanationImages: [`${assetRoot$3}/q04-answer.png`],
+			sourceExtractedDiagram: true
+		}
+	]
+};
+//#endregion
+//#region src/data/konkurMathFunctionDomainRangeExam.js
+var assetRoot$2 = "/exam-assets/konkur-math-function-domain-range";
+var konkurMathFunctionDomainRangeExam = {
+	id: "konkur-math-function-domain-range-simulator",
+	category: "شبیه‌ساز کنکور",
+	track: "ریاضی",
+	trackScope: "math",
+	grade: "دوازدهم",
+	chapter: "تابع",
+	lesson: "دامنه و برد",
+	title: "شبیه‌ساز کنکور ریاضی - تابع / دامنه و برد",
+	topic: "دامنه و برد تابع در کنکور سراسری ریاضی",
+	standardMinutes: 5,
+	sourceFile: "کنکور سراسری ریاضی - تفکیک مبحثی حل‌شده / تابع / دامنه - برد",
+	answerSourceFile: "حل تشریحی صابر - پاسخ هر سؤال زیر همان سؤال",
+	sourceMode: "typed_question_with_verified_answer",
+	answerMode: "teacher_handwritten_answer_crop",
+	contentMode: "typed_questions_from_source_review",
+	publishable: true,
+	convertedChapters: [{
+		chapter: "تابع - دامنه و برد",
+		questionCount: 3
+	}],
+	questions: [
+		{
+			id: 140010,
+			sourceId: "R1400D-10",
+			chapter: "تابع",
+			lesson: "دامنه و برد",
+			topic: "دامنه تابع لگاریتمی",
+			text: "دامنه تغییرات تابع f(x)=log₆(6/(6+√|x|-|x|)) کدام است؟",
+			options: [
+				"(-۹،۹)",
+				"(-۴،۹)",
+				"(۴،۹)",
+				"(-۴،۴)"
+			],
+			answer: 0,
+			standardSeconds: 95,
+			explanationText: "برای تعریف تابع لگاریتمی، عبارت داخل لگاریتم باید مثبت و مخرج کسر نیز مثبت باشد. شرط اصلی 6+√|x|-|x|>0 است. با t=√|x| داریم t²-t-6<0، پس 0≤t<3 و در نتیجه |x|<9؛ یعنی -9<x<9.",
+			explanationImages: [`${assetRoot$2}/q01-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 140009,
+			sourceId: "R1400D-9",
+			chapter: "تابع",
+			lesson: "دامنه و برد",
+			topic: "برد تابع مثلثاتی",
+			text: "فرض کنید برد تابع f(x)=2^(∛(9cos²x-1)) - 2^(∛(1-9cos²x)) به صورت [a,b] باشد. مقدار b-a کدام است؟",
+			options: [
+				"۹/۴",
+				"۱۵/۴",
+				"۹/۲",
+				"۲۱/۴"
+			],
+			answer: 3,
+			standardSeconds: 110,
+			explanationText: "اگر t=∛(9cos²x-1)، چون 0≤cos²x≤1 داریم -1≤t≤2. تابع برابر 2^t-2^(-t) است و روی این بازه صعودی است. کمینه در t=-1 برابر -3/2 و بیشینه در t=2 برابر 15/4 است؛ بنابراین b-a=21/4.",
+			explanationImages: [`${assetRoot$2}/q02-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 140011,
+			sourceId: "R1400K-11",
+			chapter: "تابع",
+			lesson: "دامنه و برد",
+			topic: "برد تابع نمایی-رادیکالی",
+			text: "فرض کنید [a,b] برد تابع f(x)=2^(-√(5sin²x-1)) باشد. مقدار a+b کدام است؟",
+			options: [
+				"۱/۴",
+				"۱/۲",
+				"۳/۴",
+				"۵/۴"
+			],
+			answer: 3,
+			standardSeconds: 95,
+			explanationText: "برای تعریف رادیکال باید 5sin²x-1≥0 باشد. مقدار √(5sin²x-1) بین 0 و 2 قرار می‌گیرد؛ پس توان تابع بین -2 و 0 است. بنابراین برد تابع [1/4,1] و a+b=5/4 است.",
+			explanationImages: [`${assetRoot$2}/q03-answer.png`],
+			sourceExtractedDiagram: false
+		}
+	]
+};
+//#endregion
+//#region src/data/konkurMathQuadraticFunctionExam.js
+var assetRoot$1 = "/exam-assets/konkur-math-quadratic-function";
+var konkurMathQuadraticFunctionExam = {
+	id: "konkur-math-quadratic-function-simulator",
+	category: "شبیه‌ساز کنکور",
+	track: "ریاضی",
+	trackScope: "math",
+	grade: "دوازدهم",
+	chapter: "تابع درجه دوم",
+	lesson: "تابع درجه دوم",
+	title: "شبیه‌ساز کنکور ریاضی - تابع درجه دوم",
+	topic: "تابع درجه دوم در کنکور سراسری ریاضی",
+	standardMinutes: 4,
+	sourceFile: "کنکور سراسری ریاضی - تفکیک مبحثی حل‌شده / تابع درجه ۲",
+	answerSourceFile: "حل تشریحی صابر - پاسخ هر سؤال زیر همان سؤال",
+	sourceMode: "typed_question_with_verified_answer",
+	answerMode: "teacher_handwritten_answer_crop",
+	contentMode: "typed_questions_from_source_review",
+	publishable: true,
+	convertedChapters: [{
+		chapter: "تابع درجه دوم",
+		questionCount: 2
+	}],
+	questions: [{
+		id: 140102,
+		sourceId: "R1401DEY-2",
+		chapter: "تابع درجه دوم",
+		lesson: "راس سهمی",
+		topic: "عرض راس سهمی",
+		text: "راس سهمی y=kx²-4x-6 روی خط y=-4x-4 قرار دارد. عرض راس سهمی کدام است؟",
+		options: [
+			"۲",
+			"۶",
+			"-۴",
+			"-۸"
+		],
+		answer: 1,
+		standardSeconds: 95,
+		explanationText: "راس سهمی در x=2/k قرار می‌گیرد. مختصات راس را در خط y=-4x-4 جای‌گذاری می‌کنیم و از رابطه عرض راس سهمی، k=2 به‌دست می‌آید. بنابراین عرض راس برابر ۶ است.",
+		explanationImages: [`${assetRoot$1}/q01-answer.png`],
+		sourceExtractedDiagram: false
+	}, {
+		id: 140101,
+		sourceId: "R1401K-1",
+		chapter: "تابع درجه دوم",
+		lesson: "مماس و سهمی",
+		topic: "طول راس سهمی",
+		text: "نمودار تابع y=3x²+(2m-1)x+m+4/3 در ناحیه دوم بر نیمساز آن ناحیه مماس است. طول راس سهمی کدام است؟",
+		options: [
+			"-۱/۱۸",
+			"-۵/۱۸",
+			"-۷/۶",
+			"-۱/۲"
+		],
+		answer: 3,
+		standardSeconds: 110,
+		explanationText: "نیمساز ناحیه دوم خط y=-x است. برای مماس بودن، معادله تقاطع سهمی با y=-x باید ریشه مضاعف داشته باشد. از شرط دلتا صفر، مقدار m مشخص می‌شود و طول راس سهمی برابر -۱/۲ به دست می‌آید.",
+		explanationImages: [`${assetRoot$1}/q02-answer.png`],
+		sourceExtractedDiagram: false
+	}]
+};
+//#endregion
+//#region src/data/konkurMathRadicalPowerExam.js
+var assetRoot = "/exam-assets/konkur-math-radical-power";
+var konkurMathRadicalPowerExam = {
+	id: "konkur-math-radical-power-simulator",
+	category: "شبیه‌ساز کنکور",
+	track: "ریاضی",
+	trackScope: "math",
+	grade: "دوازدهم",
+	chapter: "توان گویا و رادیکال",
+	lesson: "توان گویا و رادیکال",
+	title: "شبیه‌ساز کنکور ریاضی - توان گویا و رادیکال",
+	topic: "توان گویا و رادیکال در کنکور سراسری ریاضی",
+	standardMinutes: 5,
+	sourceFile: "کنکور سراسری ریاضی - تفکیک مبحثی حل‌شده / توان گویا و رادیکال",
+	answerSourceFile: "حل تشریحی صابر - پاسخ هر سؤال زیر همان سؤال",
+	sourceMode: "typed_question_with_verified_answer",
+	answerMode: "teacher_handwritten_answer_crop",
+	contentMode: "typed_questions_from_source_review",
+	publishable: true,
+	convertedChapters: [{
+		chapter: "توان گویا و رادیکال",
+		questionCount: 3
+	}],
+	questions: [
+		{
+			id: 139801,
+			sourceId: "R1398D-1",
+			chapter: "توان گویا و رادیکال",
+			lesson: "توان گویا",
+			topic: "ریشه و توان",
+			text: "اگر A=ریشه پنجمِ (۳² × ۴^(۴/۳)) باشد، حاصل (۲A)^(-۱/۳) کدام است؟",
+			options: [
+				"۰/۲۵",
+				"۰/۵",
+				"۰/۷۵",
+				"۱"
+			],
+			answer: 1,
+			standardSeconds: 85,
+			explanationText: "طبق تبدیل توان‌ها در حل منبع، مقدار A برابر ۴ می‌شود. بنابراین (۲A)^(-۱/۳)=(۸)^(-۱/۳)=۱/۲ است.",
+			explanationImages: [`${assetRoot}/q01-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 139802,
+			sourceId: "R1398K-2",
+			chapter: "توان گویا و رادیکال",
+			lesson: "توان گویا",
+			topic: "ریشه و توان منفی",
+			text: "اگر A=ریشه پنجمِ (ریشه دومِ ۳ × ۳^(-۱/۵)) باشد، حاصل (1+A⁻¹)^(۱/۲) کدام است؟",
+			options: [
+				"۳",
+				"۴",
+				"۵",
+				"۶"
+			],
+			answer: 2,
+			standardSeconds: 90,
+			explanationText: "با ساده‌سازی توان‌ها، مقدار A برابر ۱/۲۴ به دست می‌آید. پس A⁻¹=24 و (1+A⁻¹)^(1/2)=√25=5 است.",
+			explanationImages: [`${assetRoot}/q02-answer.png`],
+			sourceExtractedDiagram: false
+		},
+		{
+			id: 140106,
+			sourceId: "R1401D-6",
+			chapter: "توان گویا و رادیکال",
+			lesson: "عبارت‌های رادیکالی",
+			topic: "ساده‌سازی عبارت رادیکالی",
+			text: "اگر 1/(a^(1/3)+1) + 1/(a^(1/3)-1) = 2 باشد، حاصل (1/(a^(2/3)-√a+1) + 1/(a^(2/3)+√a+1))^1401 چقدر است؟",
+			options: [
+				"۲",
+				"-۲",
+				"۱",
+				"-۱"
+			],
+			answer: 2,
+			standardSeconds: 120,
+			explanationText: "با قرار دادن t=a^(1/3)، از رابطه اول مقدار t مشخص می‌شود و طبق ساده‌سازی منبع، عبارت داخل پرانتز برابر ۱ می‌شود. پس توان ۱۴۰۱ آن نیز برابر ۱ است.",
+			explanationImages: [`${assetRoot}/q03-answer.png`],
+			sourceExtractedDiagram: false
 		}
 	]
 };
@@ -33206,6 +33765,12 @@ var examSeedOptions = [
 	konkurExperimental1401DeyFullExam,
 	konkurExperimental1402DFullExam,
 	konkurMath1402DHesabanExam,
+	konkurMathFunctionTransferExam,
+	konkurMathFunctionInverseExam,
+	konkurMathFunctionCompositionExam,
+	konkurMathFunctionDomainRangeExam,
+	konkurMathQuadraticFunctionExam,
+	konkurMathRadicalPowerExam,
 	...topicTextExamSources,
 	interactiveExamSample,
 	...localTopicExamSources.map(examFromLocalTopic),
@@ -34553,8 +35118,9 @@ var enrichQuestionVisual = (question) => {
 	};
 };
 function QuestionDiagram({ diagram, image, fullPage }) {
+	const isSignTableImage = typeof image === "string" && /sign-table|source-table|tayin-alamat/i.test(image);
 	if (image) return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-		className: `question-diagram verified-source-diagram ${fullPage ? "full-page-source-diagram" : ""}`,
+		className: `question-diagram verified-source-diagram ${fullPage ? "full-page-source-diagram" : ""} ${isSignTableImage ? "sign-table-diagram" : ""}`,
 		"aria-label": "شکل دقیق استخراج‌شده از فایل اصلی",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 			src: image,
@@ -35880,6 +36446,16 @@ function App() {
 							}, item.href))
 						})]
 					}) : null
+				]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "morph-category-loader",
+				"aria-label": "وضعیت آماده‌سازی مسیر",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "مسیرت آماده است" }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "درس‌ها مرتب شدند" }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "آزمونت همین‌جاست" }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "دفترچه آماده باز شدن است" })
 				]
 			}),
 			routeNotice ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
@@ -38551,7 +39127,7 @@ function App() {
 																className: "option-diagram",
 																dangerouslySetInnerHTML: { __html: question.verifiedOptionDiagrams[index] }
 															}) : question.verifiedOptionDiagramImages?.[index] ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-																className: "option-diagram source-option-image",
+																className: `option-diagram source-option-image ${/tayin-alamat|sign-table|option/i.test(question.verifiedOptionDiagramImages[index]) ? "sign-table-option-image" : ""}`,
 																children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 																	src: question.verifiedOptionDiagramImages[index],
 																	alt: `شکل گزینه ${index + 1}`
@@ -39207,43 +39783,74 @@ function App() {
 					]
 				})
 			] }),
-			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("footer", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "MathRoad" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "مسیر ریاضی بدون گم‌شدن بین فایل‌ها" })] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
-				"aria-label": "لینک‌های پایانی",
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("footer", {
+				className: "site-footer",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "#pathways",
-						children: "شروع مسیر"
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "footer-brand",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "MathRoad" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "مسیر ریاضی بدون گم‌شدن بین فایل‌ها" })]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "#textbook-solutions",
-						children: "حل تمرین"
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
+						className: "footer-line-links",
+						"aria-label": "لینک‌های پایانی",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#pathways",
+								children: "شروع مسیر"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#textbook-solutions",
+								children: "حل تمرین"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#review-notes",
+								children: "مرور نکته"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#exam-room",
+								children: "آزمون"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#advisor",
+								children: "مشاور"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#support",
+								children: "پشتیبانی"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#terms",
+								children: "شرایط"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#privacy",
+								children: "حریم خصوصی"
+							})
+						]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "#review-notes",
-						children: "مرور نکته"
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "#exam-room",
-						children: "آزمون"
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "#advisor",
-						children: "مشاور"
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "#support",
-						children: "پشتیبانی"
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "#terms",
-						children: "شرایط"
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-						href: "#privacy",
-						children: "حریم خصوصی"
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "footer-social-flips",
+						"aria-label": "دسترسی سریع",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+								href: "#support",
+								"aria-label": "چت پشتیبانی",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "پشتیبانی" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: "چت" })]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+								href: "#tickets",
+								"aria-label": "ثبت تیکت",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "تیکت" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: "ثبت" })]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+								href: "#contact",
+								"aria-label": "ارتباط رسمی",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "ارتباط" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: "رسمی" })]
+							})
+						]
 					})
 				]
-			})] })
+			})
 		]
 	});
 }
