@@ -1,0 +1,984 @@
+{
+  "policy": "repair mojibake, normalize chapter/topic from PDF name, publish only nonvisual non-noise questions",
+  "totals": {
+    "banks": 108,
+    "questions": 1080,
+    "active": 625,
+    "pausedVisual": 21,
+    "pausedTextNeedsPdf": 434
+  },
+  "banks": [
+    {
+      "key": "انتقال 1",
+      "chapter": "تابع",
+      "topic": "انتقال 1",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "انتقال 2",
+      "chapter": "تابع",
+      "topic": "انتقال 2",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "انتقال 3",
+      "chapter": "تابع",
+      "topic": "انتقال 3",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "انتقال و تبدیل نمودار",
+      "chapter": "تابع",
+      "topic": "انتقال و تبدیل نمودار",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "انواع تابع",
+      "chapter": "تابع",
+      "topic": "انواع تابع",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "برد تابع",
+      "chapter": "تابع",
+      "topic": "برد تابع",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع درجه 3",
+      "chapter": "تابع",
+      "topic": "تابع درجه 3",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع درجه دوم 1",
+      "chapter": "تابع",
+      "topic": "تابع درجه دوم 1",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع درجه دوم 2",
+      "chapter": "تابع",
+      "topic": "تابع درجه دوم 2",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع درجه دوم 3",
+      "chapter": "تابع",
+      "topic": "تابع درجه دوم 3",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع درجه دوم 4",
+      "chapter": "تابع",
+      "topic": "تابع درجه دوم 4",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع درجه دوم 5",
+      "chapter": "تابع",
+      "topic": "تابع درجه دوم 5",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع وارون 1",
+      "chapter": "تابع",
+      "topic": "تابع وارون 1",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع وارون 2",
+      "chapter": "تابع",
+      "topic": "تابع وارون 2",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع وارون 3",
+      "chapter": "تابع",
+      "topic": "تابع وارون 3",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع وارون 4",
+      "chapter": "تابع",
+      "topic": "تابع وارون 4",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع وارون 5",
+      "chapter": "تابع",
+      "topic": "تابع وارون 5",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تابع یک به یک",
+      "chapter": "تابع",
+      "topic": "تابع یک به یک",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "ترکیب توابع",
+      "chapter": "تابع",
+      "topic": "ترکیب توابع",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "ترکیب توابع (تجربی) 1",
+      "chapter": "تابع",
+      "topic": "ترکیب توابع (تجربی) 1",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "ترکیب توابع (تجربی) 2",
+      "chapter": "تابع",
+      "topic": "ترکیب توابع (تجربی) 2",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "ترکیب توابع (تجربی) 3",
+      "chapter": "تابع",
+      "topic": "ترکیب توابع (تجربی) 3",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "ترکیب توابع 2",
+      "chapter": "تابع",
+      "topic": "ترکیب توابع 2",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تساوی دو تابع",
+      "chapter": "تابع",
+      "topic": "تساوی دو تابع",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "تعریف تابع",
+      "chapter": "تابع",
+      "topic": "تعریف تابع",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "معادله مثلثاتی 1",
+      "chapter": "مثلثات",
+      "topic": "معادله مثلثاتی 1",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "معادله مثلثاتی 2",
+      "chapter": "مثلثات",
+      "topic": "معادله مثلثاتی 2",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "معادله مثلثاتی 3",
+      "chapter": "مثلثات",
+      "topic": "معادله مثلثاتی 3",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 10
+    },
+    {
+      "key": "اعمال جبری توابع 1",
+      "chapter": "تابع",
+      "topic": "اعمال جبری توابع 1",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "اعمال جبری توابع 2",
+      "chapter": "تابع",
+      "topic": "اعمال جبری توابع 2",
+      "questions": 10,
+      "active": 7,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 3
+    },
+    {
+      "key": "توابع چندچمله ای و توابع یکنوا 1",
+      "chapter": "تابع",
+      "topic": "توابع چندچمله ای و توابع یکنوا 1",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "توابع چندچمله ای و توابع یکنوا 2",
+      "chapter": "تابع",
+      "topic": "توابع چندچمله ای و توابع یکنوا 2",
+      "questions": 10,
+      "active": 5,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 5
+    },
+    {
+      "key": "توابع یکنوا 1",
+      "chapter": "تابع",
+      "topic": "توابع یکنوا 1",
+      "questions": 10,
+      "active": 5,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 5
+    },
+    {
+      "key": "توابع یکنوا 2",
+      "chapter": "تابع",
+      "topic": "توابع یکنوا 2",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "توابع یکنوا 3",
+      "chapter": "تابع",
+      "topic": "توابع یکنوا 3",
+      "questions": 10,
+      "active": 6,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 4
+    },
+    {
+      "key": "آمار توصیفی",
+      "chapter": "آمار و احتمال",
+      "topic": "آمار توصیفی",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "آمار توصیفی 2",
+      "chapter": "آمار و احتمال",
+      "topic": "آمار توصیفی 2",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "احتمال کل 1",
+      "chapter": "آمار و احتمال",
+      "topic": "احتمال کل 1",
+      "questions": 10,
+      "active": 7,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 3
+    },
+    {
+      "key": "احتمال کل 2",
+      "chapter": "آمار و احتمال",
+      "topic": "احتمال کل 2",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "احتمال کل 3",
+      "chapter": "آمار و احتمال",
+      "topic": "احتمال کل 3",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "احتمال کل 4",
+      "chapter": "آمار و احتمال",
+      "topic": "احتمال کل 4",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "توان و رادیکال 1",
+      "chapter": "توان‌های گویا و عبارت‌های جبری",
+      "topic": "توان و رادیکال 1",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "توان و رادیکال 2",
+      "chapter": "توان‌های گویا و عبارت‌های جبری",
+      "topic": "توان و رادیکال 2",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "قدرمطلق 1",
+      "chapter": "توان‌های گویا و عبارت‌های جبری",
+      "topic": "قدرمطلق 1",
+      "questions": 10,
+      "active": 6,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 4
+    },
+    {
+      "key": "قدرمطلق 2",
+      "chapter": "توان‌های گویا و عبارت‌های جبری",
+      "topic": "قدرمطلق 2",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "قدرمطلق 3",
+      "chapter": "توان‌های گویا و عبارت‌های جبری",
+      "topic": "قدرمطلق 3",
+      "questions": 10,
+      "active": 5,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 5
+    },
+    {
+      "key": "شمارش 1",
+      "chapter": "شمارش، بدون شمردن",
+      "topic": "شمارش 1",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "شمارش 2",
+      "chapter": "شمارش، بدون شمردن",
+      "topic": "شمارش 2",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 1,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "تناوب و تانژانت 1",
+      "chapter": "مثلثات",
+      "topic": "تناوب و تانژانت 1",
+      "questions": 10,
+      "active": 2,
+      "pausedVisual": 8,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "تناوب و تانژانت 2",
+      "chapter": "مثلثات",
+      "topic": "تناوب و تانژانت 2",
+      "questions": 10,
+      "active": 0,
+      "pausedVisual": 10,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "تناوب و تانژانت 3",
+      "chapter": "مثلثات",
+      "topic": "تناوب و تانژانت 3",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 1,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "دنباله 1",
+      "chapter": "مجموعه، الگو و دنباله",
+      "topic": "دنباله 1",
+      "questions": 10,
+      "active": 5,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 5
+    },
+    {
+      "key": "دنباله 2",
+      "chapter": "مجموعه، الگو و دنباله",
+      "topic": "دنباله 2",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "دنباله 3",
+      "chapter": "مجموعه، الگو و دنباله",
+      "topic": "دنباله 3",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "دنباله 4",
+      "chapter": "مجموعه، الگو و دنباله",
+      "topic": "دنباله 4",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "دنباله 5",
+      "chapter": "مجموعه، الگو و دنباله",
+      "topic": "دنباله 5",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "پیوستگی 1",
+      "chapter": "حد و پیوستگی",
+      "topic": "پیوستگی 1",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "پیوستگی 2",
+      "chapter": "حد و پیوستگی",
+      "topic": "پیوستگی 2",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "حد بینهایت 1",
+      "chapter": "حد و پیوستگی",
+      "topic": "حد بینهایت 1",
+      "questions": 10,
+      "active": 6,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 4
+    },
+    {
+      "key": "حد بینهایت 2",
+      "chapter": "حد و پیوستگی",
+      "topic": "حد بینهایت 2",
+      "questions": 10,
+      "active": 1,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 9
+    },
+    {
+      "key": "حد بینهایت 3",
+      "chapter": "حد و پیوستگی",
+      "topic": "حد بینهایت 3",
+      "questions": 10,
+      "active": 4,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 6
+    },
+    {
+      "key": "حد توابع کسری 1",
+      "chapter": "حد و پیوستگی",
+      "topic": "حد توابع کسری 1",
+      "questions": 10,
+      "active": 6,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 4
+    },
+    {
+      "key": "حد توابع کسری 2",
+      "chapter": "حد و پیوستگی",
+      "topic": "حد توابع کسری 2",
+      "questions": 10,
+      "active": 7,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 3
+    },
+    {
+      "key": "حد در بینهایت 1",
+      "chapter": "حد و پیوستگی",
+      "topic": "حد در بینهایت 1",
+      "questions": 10,
+      "active": 5,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 5
+    },
+    {
+      "key": "حد در بینهایت 2",
+      "chapter": "حد و پیوستگی",
+      "topic": "حد در بینهایت 2",
+      "questions": 10,
+      "active": 7,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 3
+    },
+    {
+      "key": "قضایای حد",
+      "chapter": "حد و پیوستگی",
+      "topic": "قضایای حد",
+      "questions": 10,
+      "active": 7,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 3
+    },
+    {
+      "key": "قضایای حد 2",
+      "chapter": "حد و پیوستگی",
+      "topic": "قضایای حد 2",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "مجانب افقی 1",
+      "chapter": "حد و پیوستگی",
+      "topic": "مجانب افقی 1",
+      "questions": 10,
+      "active": 6,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 4
+    },
+    {
+      "key": "مجانب افقی 2",
+      "chapter": "حد و پیوستگی",
+      "topic": "مجانب افقی 2",
+      "questions": 10,
+      "active": 5,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 5
+    },
+    {
+      "key": "مجانب قایم 1",
+      "chapter": "حد و پیوستگی",
+      "topic": "مجانب قایم 1",
+      "questions": 10,
+      "active": 6,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 4
+    },
+    {
+      "key": "مجانب قایم 2",
+      "chapter": "حد و پیوستگی",
+      "topic": "مجانب قایم 2",
+      "questions": 10,
+      "active": 5,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 5
+    },
+    {
+      "key": "آهنگ تغییر 1",
+      "chapter": "مشتق",
+      "topic": "آهنگ تغییر 1",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "آهنگ تغییر 2",
+      "chapter": "مشتق",
+      "topic": "آهنگ تغییر 2",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "مشتق 1",
+      "chapter": "مشتق",
+      "topic": "مشتق 1",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "مشتق 2",
+      "chapter": "مشتق",
+      "topic": "مشتق 2",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "مشتق 3",
+      "chapter": "مشتق",
+      "topic": "مشتق 3",
+      "questions": 10,
+      "active": 7,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 3
+    },
+    {
+      "key": "مشتق 4",
+      "chapter": "مشتق",
+      "topic": "مشتق 4",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "مشتق 5",
+      "chapter": "مشتق",
+      "topic": "مشتق 5",
+      "questions": 10,
+      "active": 7,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 3
+    },
+    {
+      "key": "مشتق 6",
+      "chapter": "مشتق",
+      "topic": "مشتق 6",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "مشتق 7",
+      "chapter": "مشتق",
+      "topic": "مشتق 7",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "بخش پذیری 1",
+      "chapter": "ریاضیات گسسته",
+      "topic": "بخش پذیری 1",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "بخش پذیری 2",
+      "chapter": "ریاضیات گسسته",
+      "topic": "بخش پذیری 2",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "بخش پذیری 3",
+      "chapter": "ریاضیات گسسته",
+      "topic": "بخش پذیری 3",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "بیضی 1",
+      "chapter": "هندسه",
+      "topic": "بیضی 1",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "بیضی 2",
+      "chapter": "هندسه",
+      "topic": "بیضی 2",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "تالس",
+      "chapter": "هندسه",
+      "topic": "تالس",
+      "questions": 10,
+      "active": 3,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 7
+    },
+    {
+      "key": "ترسیم هندسی",
+      "chapter": "هندسه",
+      "topic": "ترسیم هندسی",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "تشابه",
+      "chapter": "هندسه",
+      "topic": "تشابه",
+      "questions": 10,
+      "active": 4,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 6
+    },
+    {
+      "key": "دایره 1",
+      "chapter": "هندسه",
+      "topic": "دایره 1",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "دایره 2",
+      "chapter": "هندسه",
+      "topic": "دایره 2",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "دایره 3",
+      "chapter": "هندسه",
+      "topic": "دایره 3",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "دایره 4",
+      "chapter": "هندسه",
+      "topic": "دایره 4",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "دوران و برش 1",
+      "chapter": "هندسه",
+      "topic": "دوران و برش 1",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "دوران و برش 2",
+      "chapter": "هندسه",
+      "topic": "دوران و برش 2",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "دوران و برش 3",
+      "chapter": "هندسه",
+      "topic": "دوران و برش 3",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "دوران و برش 4",
+      "chapter": "هندسه",
+      "topic": "دوران و برش 4",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "هندسه مختصاتی 1",
+      "chapter": "هندسه",
+      "topic": "هندسه مختصاتی 1",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "هندسه مختصاتی 2",
+      "chapter": "هندسه",
+      "topic": "هندسه مختصاتی 2",
+      "questions": 10,
+      "active": 7,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 3
+    },
+    {
+      "key": "هندسه مختصاتی 3",
+      "chapter": "هندسه",
+      "topic": "هندسه مختصاتی 3",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "جز صحیح",
+      "chapter": "تابع",
+      "topic": "جز صحیح",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "دامنه تابع",
+      "chapter": "تابع",
+      "topic": "دامنه تابع",
+      "questions": 10,
+      "active": 6,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 4
+    },
+    {
+      "key": "معادله گنگ و گویا 1",
+      "chapter": "توان‌های گویا و عبارت‌های جبری",
+      "topic": "معادله گنگ و گویا 1",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "معادله گنگ و گویا 2",
+      "chapter": "توان‌های گویا و عبارت‌های جبری",
+      "topic": "معادله گنگ و گویا 2",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "معادله گنگ و گویا 3",
+      "chapter": "توان‌های گویا و عبارت‌های جبری",
+      "topic": "معادله گنگ و گویا 3",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 1
+    },
+    {
+      "key": "معادله گنگ و گویا 4",
+      "chapter": "توان‌های گویا و عبارت‌های جبری",
+      "topic": "معادله گنگ و گویا 4",
+      "questions": 10,
+      "active": 8,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 2
+    },
+    {
+      "key": "معادله گنگ و گویا 5",
+      "chapter": "توان‌های گویا و عبارت‌های جبری",
+      "topic": "معادله گنگ و گویا 5",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "نقظه بحرانی 1",
+      "chapter": "ریاضی",
+      "topic": "نقظه بحرانی 1",
+      "questions": 10,
+      "active": 9,
+      "pausedVisual": 1,
+      "pausedTextNeedsPdf": 0
+    },
+    {
+      "key": "نقظه بحرانی 2",
+      "chapter": "ریاضی",
+      "topic": "نقظه بحرانی 2",
+      "questions": 10,
+      "active": 10,
+      "pausedVisual": 0,
+      "pausedTextNeedsPdf": 0
+    }
+  ]
+}
