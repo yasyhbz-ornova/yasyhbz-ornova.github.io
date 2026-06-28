@@ -1,0 +1,730 @@
+{
+  "policy": "Konkur PDFs are indexed from source folders. Only already typed, source-backed JS exams are publishable; raw PDFs stay source queue per soal-saz.",
+  "changedEncodingFiles": [],
+  "sourceRoot": "C:\\Users\\Odyssey\\Desktop\\فایل سایت ریاضی\\کنکور سراسری",
+  "totals": {
+    "pdfs": 429,
+    "experimentalPdfs": 62,
+    "mathPdfs": 367,
+    "rounds": 46
+  },
+  "rounds": [
+    {
+      "track": "experimental",
+      "round": "T1401-DEY",
+      "count": 31,
+      "firstFiles": [
+        "T1401DEY-111.pdf",
+        "T1401DEY-112.pdf",
+        "T1401DEY-113.pdf",
+        "T1401DEY-114.pdf",
+        "T1401DEY-115.pdf",
+        "T1401DEY-116.pdf",
+        "T1401DEY-117.pdf",
+        "T1401DEY-118.pdf"
+      ],
+      "topicPaths": [
+        "ریاضی تجربی - کنکور سراسری - حل شده / T1401-DEY"
+      ]
+    },
+    {
+      "track": "experimental",
+      "round": "T1402D",
+      "count": 31,
+      "firstFiles": [
+        "T1402D-111.pdf",
+        "T1402D-112.pdf",
+        "T1402D-113.pdf",
+        "T1402D-114.pdf",
+        "T1402D-115.pdf",
+        "T1402D-116.pdf",
+        "T1402D-117.pdf",
+        "T1402D-118.pdf"
+      ],
+      "topicPaths": [
+        "ریاضی تجربی - کنکور سراسری - حل شده / T1402D"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1398D",
+      "count": 16,
+      "firstFiles": [
+        "R1398D-1.pdf",
+        "R1398D-2.pdf",
+        "R1398D-3.pdf",
+        "R1398D-4.pdf",
+        "R1398D-5.pdf",
+        "R1398D-6.pdf",
+        "R1398D-7.pdf",
+        "R1398D-8.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1398D"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1398K",
+      "count": 15,
+      "firstFiles": [
+        "R1398K-1.pdf",
+        "R1398K-2.pdf",
+        "R1398K-3.pdf",
+        "R1398K-4.pdf",
+        "R1398K-5.pdf",
+        "R1398K-6.pdf",
+        "R1398K-7.pdf",
+        "R1398K-8.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1398K"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1399D",
+      "count": 17,
+      "firstFiles": [
+        "R1399D-1.pdf",
+        "R1399D-2.pdf",
+        "R1399D-3.pdf",
+        "R1399D-4.pdf",
+        "R1399D-5.pdf",
+        "R1399D-6.pdf",
+        "R1399D-7.pdf",
+        "R1399D-8.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1399D"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1399K",
+      "count": 17,
+      "firstFiles": [
+        "R1399K-1.pdf",
+        "R1399K-2.pdf",
+        "R1399K-4.pdf",
+        "R1399K-5.pdf",
+        "R1399K-6.pdf",
+        "R1399K-7.pdf",
+        "R1399K-8.pdf",
+        "R1399K-9.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1399K"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1400D",
+      "count": 19,
+      "firstFiles": [
+        "R1400D-1.pdf",
+        "R1400D-2.pdf",
+        "R1400D-3.pdf",
+        "R1400D-4.pdf",
+        "R1400D-6.pdf",
+        "R1400D-7.pdf",
+        "R1400D-8.pdf",
+        "R1400D-9.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1400D"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1400K",
+      "count": 21,
+      "firstFiles": [
+        "R1400K-1.pdf",
+        "R1400K-2.pdf",
+        "R1400K-3.pdf",
+        "R1400K-4.pdf",
+        "R1400K-5.pdf",
+        "R1400K-6.pdf",
+        "R1400K-7.pdf",
+        "R1400K-8.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1400K"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1401-DEY",
+      "count": 18,
+      "firstFiles": [
+        "R1401DEY-1.pdf",
+        "R1401DEY-10.pdf",
+        "R1401DEY-11.pdf",
+        "R1401DEY-12.pdf",
+        "R1401DEY-13.pdf",
+        "R1401DEY-14.pdf",
+        "R1401DEY-15.pdf",
+        "R1401DEY-16.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1401-DEY"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1401-mojadad-azar",
+      "count": 23,
+      "firstFiles": [
+        "R1401-mojadad-azar-101.pdf",
+        "R1401-mojadad-azar-102.pdf",
+        "R1401-mojadad-azar-103.pdf",
+        "R1401-mojadad-azar-104.pdf",
+        "R1401-mojadad-azar-106.pdf",
+        "R1401-mojadad-azar-107.pdf",
+        "R1401-mojadad-azar-108.pdf",
+        "R1401-mojadad-azar-109.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1401-mojadad-azar"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1401D",
+      "count": 20,
+      "firstFiles": [
+        "R1401D-1.pdf",
+        "R1401D-2.pdf",
+        "R1401D-3.pdf",
+        "R1401D-5.pdf",
+        "R1401D-6.pdf",
+        "R1401D-7.pdf",
+        "R1401D-8.pdf",
+        "R1401D-9.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1401D"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1401K",
+      "count": 18,
+      "firstFiles": [
+        "R1401K-1.pdf",
+        "R1401K-2.pdf",
+        "R1401K-3.pdf",
+        "R1401K-5.pdf",
+        "R1401K-6.pdf",
+        "R1401K-7.pdf",
+        "R1401K-8.pdf",
+        "R1401K-9.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1401K"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "R1402D",
+      "count": 19,
+      "firstFiles": [
+        "1.pdf",
+        "10.pdf",
+        "11.pdf",
+        "12.pdf",
+        "13.pdf",
+        "14.pdf",
+        "15.pdf",
+        "16.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده / R1402D"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "آهنگ تغییر",
+      "count": 3,
+      "firstFiles": [
+        "R1398D-14.pdf",
+        "R1399D-16.pdf",
+        "R1401K-18.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / مشتق / آهنگ تغییر"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "اتحادهای مثلثاتی",
+      "count": 4,
+      "firstFiles": [
+        "R1400D-5.pdf",
+        "R1400K-5.pdf",
+        "R1401K-9.pdf",
+        "R1399D-18.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / مثلثات / اتحادهای مثلثاتی"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "انتقال",
+      "count": 4,
+      "firstFiles": [
+        "R1398K-3.pdf",
+        "R1399D-6.pdf",
+        "R1400D-11.pdf",
+        "R1400K-12.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / تابع / انتقال"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "اکسترمم - بحران",
+      "count": 8,
+      "firstFiles": [
+        "R1400K-13.pdf",
+        "R1398K-15.pdf",
+        "R1398D-16.pdf",
+        "R1401K-19.pdf",
+        "R1400K-21.pdf",
+        "R1401D-21.pdf",
+        "R1401DEY-17.pdf",
+        "R1401DEY-19.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / کاربرد مشتق / اکسترمم - بحران"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "بخش پذیری",
+      "count": 4,
+      "firstFiles": [
+        "R1399D-3.pdf",
+        "R1399K-4.pdf",
+        "R1400K-8.pdf",
+        "R1401D-15.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / بخش پذیری"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "تابع درجه 2",
+      "count": 2,
+      "firstFiles": [
+        "R1401K-1.pdf",
+        "R1401DEY-2.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / تابع درجه 2"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "تابع لگاریتمی",
+      "count": 4,
+      "firstFiles": [
+        "R1400K-1.pdf",
+        "R1400D-2.pdf",
+        "R1400K-2.pdf",
+        "R1400D-3.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / تابع نمایی و لگاریتمی / تابع لگاریتمی"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "تابع نمایی",
+      "count": 6,
+      "firstFiles": [
+        "R1398D-6.pdf",
+        "R1398K-7.pdf",
+        "R1401D-9.pdf",
+        "R1399D-10.pdf",
+        "R1399K-10.pdf",
+        "R1401DEY-9.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / تابع نمایی و لگاریتمی / تابع نمایی"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "تابع وارون",
+      "count": 5,
+      "firstFiles": [
+        "R1399D-5.pdf",
+        "R1399K-6.pdf",
+        "R1401K-6.pdf",
+        "R1401K-8.pdf",
+        "R1401DEY-8.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / تابع / تابع وارون"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "ترکیب توابع",
+      "count": 4,
+      "firstFiles": [
+        "R1398D-5.pdf",
+        "R1398K-6.pdf",
+        "R1401D-8.pdf",
+        "R1401DEY-14.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / تابع / ترکیب توابع"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "تعریف مشتق - قواعد مشتق",
+      "count": 5,
+      "firstFiles": [
+        "R1400D-16.pdf",
+        "R1399K-17.pdf",
+        "R1400K-17.pdf",
+        "R1401D-19.pdf",
+        "R1401D-20.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / مشتق / تعریف مشتق - قواعد مشتق"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "توان گویا و رادیکال",
+      "count": 3,
+      "firstFiles": [
+        "R1398D-1.pdf",
+        "R1398K-2.pdf",
+        "R1401D-6.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / توان گویا و رادیکال"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "حد بینهایت",
+      "count": 1,
+      "firstFiles": [
+        "R1398D-11.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / حد / حد بینهایت"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "حد توابع کسری",
+      "count": 7,
+      "firstFiles": [
+        "R1399D-12.pdf",
+        "R1399K-12.pdf",
+        "R1401K-12.pdf",
+        "R1400D-13.pdf",
+        "R1401D-13.pdf",
+        "R1400K-14.pdf",
+        "R1400K-15.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / حد / حد توابع کسری"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "حد در بینهایت",
+      "count": 4,
+      "firstFiles": [
+        "R1399D-11.pdf",
+        "R1399K-11.pdf",
+        "R1400D-15.pdf",
+        "R1401DEY-15.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / حد / حد در بینهایت"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "حسابان - کنکور سراسری - حل شده",
+      "count": 1,
+      "firstFiles": [
+        "T1401-mojadad-azar-101.pdf"
+      ],
+      "topicPaths": [
+        "حسابان - کنکور سراسری - حل شده"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "خط مماس",
+      "count": 8,
+      "firstFiles": [
+        "R1398K-12.pdf",
+        "R1399K-16.pdf",
+        "R1401K-16.pdf",
+        "R1399D-17.pdf",
+        "R1400D-17.pdf",
+        "R1400K-18.pdf",
+        "R1401D-18.pdf",
+        "R1401DEY-18.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / مشتق / خط مماس"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "دامنه - برد",
+      "count": 3,
+      "firstFiles": [
+        "R1400D-9.pdf",
+        "R1400D-10.pdf",
+        "R1400K-11.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / تابع / دامنه - برد"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "دنباله",
+      "count": 11,
+      "firstFiles": [
+        "R1401D-1.pdf",
+        "R1398D-3.pdf",
+        "R1398K-4.pdf",
+        "R1400D-8.pdf",
+        "R1399D-9.pdf",
+        "R1399K-9.pdf",
+        "R1400K-9.pdf",
+        "R1400K-10.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / دنباله"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "عطف - تقعر",
+      "count": 1,
+      "firstFiles": [
+        "R1400D-20.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / کاربرد مشتق / عطف - تقعر"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "مجانب قایم و افقی",
+      "count": 7,
+      "firstFiles": [
+        "R1398K-11.pdf",
+        "R1399D-14.pdf",
+        "R1399K-14.pdf",
+        "R1400D-14.pdf",
+        "R1401K-15.pdf",
+        "R1400K-16.pdf",
+        "R1401D-17.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / حد / مجانب قایم و افقی"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "مجموعه ها",
+      "count": 10,
+      "firstFiles": [
+        "R1398K-1.pdf",
+        "R1399D-1.pdf",
+        "R1399K-1.pdf",
+        "R1399D-2.pdf",
+        "R1399K-2.pdf",
+        "R1401D-2.pdf",
+        "R1401K-2.pdf",
+        "R1401D-3.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / مجموعه ها"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "مشتق تابع مرکب",
+      "count": 4,
+      "firstFiles": [
+        "R1398D-12.pdf",
+        "R1399D-15.pdf",
+        "R1399K-15.pdf",
+        "R1401K-17.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / مشتق / مشتق تابع مرکب"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "مشتق پذیری",
+      "count": 3,
+      "firstFiles": [
+        "R1400D-12.pdf",
+        "R1398D-13.pdf",
+        "R1398K-13.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / مشتق / مشتق پذیری"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "معادلات مثلثاتی",
+      "count": 10,
+      "firstFiles": [
+        "R1400K-6.pdf",
+        "R1400D-7.pdf",
+        "R1400K-7.pdf",
+        "R1399D-8.pdf",
+        "R1399K-8.pdf",
+        "R1398D-10.pdf",
+        "R1398K-10.pdf",
+        "R1401K-11.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / مثلثات / معادلات مثلثاتی"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "معادله درجه 2",
+      "count": 3,
+      "firstFiles": [
+        "R1398D-2.pdf",
+        "R1401D-5.pdf",
+        "R1401DEY-5.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / معادله درجه 2"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "معادله و نامعادله",
+      "count": 12,
+      "firstFiles": [
+        "R1400D-1.pdf",
+        "R1400K-3.pdf",
+        "R1398D-4.pdf",
+        "R1399D-4.pdf",
+        "R1400D-4.pdf",
+        "R1400K-4.pdf",
+        "R1398K-5.pdf",
+        "R1399K-5.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / معادله و نامعادله"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "نسبت های مثلثاتی",
+      "count": 8,
+      "firstFiles": [
+        "R1400D-6.pdf",
+        "R1398D-7.pdf",
+        "R1399D-7.pdf",
+        "R1399K-7.pdf",
+        "R1398K-8.pdf",
+        "R1401D-10.pdf",
+        "R1399K-18.pdf",
+        "R1401DEY-11.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / مثلثات / نسبت های مثلثاتی"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "نمودارشناسی",
+      "count": 2,
+      "firstFiles": [
+        "R1398K-14.pdf",
+        "R1398D-15.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / کاربرد مشتق / نمودارشناسی"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "نمودارهای مثلثاتی",
+      "count": 4,
+      "firstFiles": [
+        "R1398D-9.pdf",
+        "R1401K-10.pdf",
+        "R1401D-11.pdf",
+        "R1401DEY-12.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / مثلثات / نمودارهای مثلثاتی"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "هندسه محتصاتی",
+      "count": 2,
+      "firstFiles": [
+        "R1401D-7.pdf",
+        "R1401DEY-7.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / هندسه محتصاتی"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "پیوستگی",
+      "count": 7,
+      "firstFiles": [
+        "R1398D-8.pdf",
+        "R1398K-9.pdf",
+        "R1399D-13.pdf",
+        "R1399K-13.pdf",
+        "R1401K-13.pdf",
+        "R1401D-14.pdf",
+        "R1401DEY-16.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / پیوستگی"
+      ]
+    },
+    {
+      "track": "math",
+      "round": "یکنوایی",
+      "count": 4,
+      "firstFiles": [
+        "R1400D-18.pdf",
+        "R1400D-19.pdf",
+        "R1400K-19.pdf",
+        "R1400K-20.pdf"
+      ],
+      "topicPaths": [
+        "کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / کاربرد مشتق / یکنوایی"
+      ]
+    }
+  ]
+}
