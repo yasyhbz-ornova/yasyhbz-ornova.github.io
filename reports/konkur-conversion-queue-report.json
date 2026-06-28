@@ -1,0 +1,97 @@
+{
+  "policy": "All Konkur PDFs are indexed. Untrusted OCR is not published as final questions. Existing hand-typed Konkur exams remain active separately.",
+  "totals": {
+    "pdfs": 429,
+    "rounds": 15,
+    "experimentalPdfs": 62,
+    "mathPdfs": 367
+  },
+  "activeTypedKonkurAlreadyInSite": {
+    "experimental": [
+      "کنکور تجربی دی ۱۴۰۱",
+      "کنکور تجربی ۱۴۰۲"
+    ],
+    "math": [
+      "کنکور ریاضی ۱۴۰۲ حسابان",
+      "کنکور ریاضی مبحثی تابع",
+      "کنکور ریاضی مبحثی توان و رادیکال"
+    ]
+  },
+  "queuedExams": [
+    {
+      "title": "کنکور سراسری تجربی دی ۱۴۰۱ - صف تبدیل PDF",
+      "trackScope": "experimental",
+      "sourceCount": 31
+    },
+    {
+      "title": "کنکور سراسری تجربی ۱۴۰۲ - صف تبدیل PDF",
+      "trackScope": "experimental",
+      "sourceCount": 31
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1398D - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 16
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1398K - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 15
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1399D - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 17
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1399K - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 17
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1400D - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 19
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1400K - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 21
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1401-DEY - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 18
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1401-mojadad-azar - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 23
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1401D - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 20
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1401K - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 18
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان R1402D - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 19
+    },
+    {
+      "title": "کنکور سراسری ریاضی - حسابان حسابان - کنکور سراسری - حل شده - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 159
+    },
+    {
+      "title": "کنکور سراسری ریاضی - تفکیک مبحثی کنکور سراسرس ریاضی - تفکیک مبحثی - حل شده / تابع درجه 2 - صف تبدیل PDF",
+      "trackScope": "math",
+      "sourceCount": 5
+    }
+  ]
+}
