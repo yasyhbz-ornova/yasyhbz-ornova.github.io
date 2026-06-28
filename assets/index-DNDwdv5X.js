@@ -34772,19 +34772,19 @@ var isExamReadyForStudentRoom = (exam) => {
 };
 var examCategories = [
 	{
+		id: "konkur",
+		label: "آزمون کنکور",
+		href: "#exam-room"
+	},
+	{
 		id: "topic",
-		label: "آزمون درسی",
+		label: "آزمون مبحثی",
 		href: "#exam-room"
 	},
 	{
-		id: "lesson",
-		label: "تست‌های درس",
+		id: "summary",
+		label: "آزمون جمع‌بندی",
 		href: "#exam-room"
-	},
-	{
-		id: "chapter-review",
-		label: "مرور نکته‌های نیازمند مرور فصل",
-		href: "#mistake-review-exam"
 	}
 ];
 var impactRows = [
@@ -36056,6 +36056,7 @@ function App() {
 	const [showExplanations, setShowExplanations] = (0, import_react.useState)({});
 	const [selectedExamId, setSelectedExamId] = (0, import_react.useState)(examSeedOptions[0].id);
 	const [selectedExamChapter, setSelectedExamChapter] = (0, import_react.useState)("تابع");
+	const [selectedExamType, setSelectedExamType] = (0, import_react.useState)("topic");
 	const [examSecondsLeft, setExamSecondsLeft] = (0, import_react.useState)(examSeedOptions[0].standardMinutes * 60);
 	const [functionPdfProgress, setFunctionPdfProgress] = (0, import_react.useState)(() => safeParseLocalStorage(FUNCTION_PROGRESS_GATE_STORAGE_KEY, {}));
 	const [functionPdfGateDraftFiles, setFunctionPdfGateDraftFiles] = (0, import_react.useState)({});
@@ -36304,6 +36305,12 @@ function App() {
 		return "both";
 	};
 	const isKonkurExam = (exam) => /کنکور|شبیه‌ساز کنکور/.test(`${exam?.category || ""} ${exam?.title || ""} ${exam?.chapter || ""}`);
+	const getExamMainType = (exam) => {
+		const text = `${exam?.category || ""} ${exam?.title || ""} ${exam?.chapter || ""} ${exam?.lesson || ""} ${exam?.topic || ""}`;
+		if (isKonkurExam(exam)) return "konkur";
+		if (/جمع‌بندی|جمع بندی|همایش|جامع|شبیه‌ساز|شبیه ساز|نهایی/.test(text)) return "summary";
+		return "topic";
+	};
 	const visibleExamدرسs = examدرسOptions.filter(isExamReadyForStudentRoom).filter((exam) => {
 		const gradeMatch = exam.grade?.includes(effectiveGradeLabel) || exam.grade?.includes("دهم/یازدهم") || exam.grade?.includes("یازدهم/دوازدهم") || exam.grade?.includes("دهم/یازدهم/دوازدهم");
 		const scope = examTrackScope(exam);
@@ -36311,14 +36318,16 @@ function App() {
 	});
 	const visibleKonkurExamدرسs = visibleExamدرسs.filter(isKonkurExam);
 	const visibleKonkurExamIds = visibleKonkurExamدرسs.map((exam) => exam.id).join("|");
-	const visibleLessonExamدرسs = visibleExamدرسs.filter((exam) => !isKonkurExam(exam));
+	const visibleTopicExamدرسs = visibleExamدرسs.filter((exam) => getExamMainType(exam) === "topic");
+	const visibleSummaryExamدرسs = visibleExamدرسs.filter((exam) => getExamMainType(exam) === "summary");
+	const visibleLessonExamدرسs = selectedExamType === "konkur" ? [] : selectedExamType === "summary" ? visibleSummaryExamدرسs : visibleTopicExamدرسs;
 	const visibleExamChapters = Array.from(new Set(visibleLessonExamدرسs.map((exam) => exam.chapter).filter(Boolean)));
 	const activeExamChapter = visibleExamChapters.includes(selectedExamChapter) ? selectedExamChapter : visibleExamChapters[0];
 	const visibleChapterExamدرسs = visibleLessonExamدرسs.filter((exam) => exam.chapter === activeExamChapter);
 	const visibleChapterExamIds = visibleChapterExamدرسs.map((exam) => exam.id).join("|");
 	const isLockedFunctionProgressExam = (exam) => String(exam.chapter || "").includes("تابع") && exam.lockedForFunctionProgress;
-	const selectedKonkurExam = visibleKonkurExamدرسs.find((item) => item.id === selectedExamId);
-	const selectedExam = customReviewExam || selectedKonkurExam || visibleChapterExamدرسs.find((item) => item.id === selectedExamId) || visibleChapterExamدرسs[0] || visibleKonkurExamدرسs[0] || {
+	const selectedKonkurExam = selectedExamType === "konkur" ? visibleKonkurExamدرسs.find((item) => item.id === selectedExamId) : null;
+	const selectedExam = customReviewExam || selectedKonkurExam || visibleChapterExamدرسs.find((item) => item.id === selectedExamId) || visibleChapterExamدرسs[0] || (selectedExamType === "konkur" ? visibleKonkurExamدرسs[0] : null) || {
 		id: "empty-exam-room",
 		category: "آزمون",
 		title: "آزمون آماده‌ای برای این مسیر پیدا نشد",
@@ -36329,7 +36338,8 @@ function App() {
 		topic: "در انتظار آماده‌سازی",
 		questions: []
 	};
-	const selectedExamIsKonkur = isKonkurExam(selectedExam);
+	const selectedExamIsKonkur = getExamMainType(selectedExam) === "konkur";
+	const selectedExamTypeLabel = examCategories.find((item) => item.id === selectedExamType)?.label || "آزمون مبحثی";
 	const selectedExamAllQuestions = Array.isArray(selectedExam.questions) ? selectedExam.questions.map(enrichQuestionVisual).filter(isPublishableExamQuestion) : [];
 	const isPausedVisualQuestion = (question) => Boolean(question.verifiedDiagram || question.verifiedDiagramImage || question.sourceImage || question.verifiedOptionDiagrams?.length || question.verifiedOptionDiagramImages?.length || question.requiresExactDiagram || question.requiresExactOptionDiagrams);
 	const selectedVisualPausedQuestions = selectedExamAllQuestions.filter(isPausedVisualQuestion);
@@ -36403,7 +36413,10 @@ function App() {
 	const selectedModule = growthModules[selectedModuleIndex];
 	(0, import_react.useEffect)(() => {
 		if (customReviewExam) return;
-		if (visibleKonkurExamدرسs.some((exam) => exam.id === selectedExamId)) return;
+		if (selectedExamType === "konkur") {
+			if (visibleKonkurExamدرسs.length && !visibleKonkurExamدرسs.some((exam) => exam.id === selectedExamId)) setSelectedExamId(visibleKonkurExamدرسs[0].id);
+			return;
+		}
 		if (activeExamChapter && selectedExamChapter !== activeExamChapter) {
 			setSelectedExamChapter(activeExamChapter);
 			return;
@@ -36420,6 +36433,7 @@ function App() {
 		customReviewExam,
 		selectedExamChapter,
 		selectedExamId,
+		selectedExamType,
 		visibleChapterExamIds,
 		visibleKonkurExamIds
 	]);
@@ -39705,7 +39719,7 @@ function App() {
 									" / پایه ",
 									effectiveGradeLabel
 								] })] }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "۲. نوع آزمون" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: selectedExamIsKonkur ? "کنکور کامل" : selectedExam.chapter })] }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "۲. نوع آزمون" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: selectedExamTypeLabel })] }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "۳. آزمون" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: selectedExamIsKonkur ? selectedExam.title : selectedExam.topic })] }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "۴. آزمون و تحلیل" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
 									selectedExamQuestions.length.toLocaleString("fa-IR"),
@@ -39776,8 +39790,8 @@ function App() {
 												children: [
 													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: effectiveTrackLabel }),
 													/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("b", { children: ["پایه ", effectiveGradeLabel] }),
-													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: selectedExamIsKonkur ? "کنکور کامل" : `${visibleExamChapters.length.toLocaleString("fa-IR")} فصل` }),
-													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: selectedExamIsKonkur ? `${visibleKonkurExamدرسs.length.toLocaleString("fa-IR")} آزمون کنکور آماده` : `${visibleChapterExamدرسs.length.toLocaleString("fa-IR")} درس در فصل ${activeExamChapter}` }),
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: selectedExamTypeLabel }),
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: selectedExamIsKonkur ? `${visibleKonkurExamدرسs.length.toLocaleString("fa-IR")} آزمون کنکور آماده` : `${visibleChapterExamدرسs.length.toLocaleString("fa-IR")} آزمون در ${activeExamChapter}` }),
 													/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("b", { children: [selectedExamQuestions.length.toLocaleString("fa-IR"), " سؤال"] })
 												]
 											}),
@@ -39816,9 +39830,33 @@ function App() {
 															}, id))
 														})]
 													}),
+													/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", {
+														className: "exam-topic-select",
+														children: ["۳. نوع آزمون", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("select", {
+															value: selectedExamType,
+															onChange: (event) => {
+																const nextType = event.target.value;
+																setCustomReviewExam(null);
+																setSelectedExamType(nextType);
+																if (nextType === "konkur") {
+																	if (visibleKonkurExamدرسs[0]) setSelectedExamId(visibleKonkurExamدرسs[0].id);
+																	return;
+																}
+																const sourceList = nextType === "summary" ? visibleSummaryExamدرسs : visibleTopicExamدرسs;
+																const firstChapter = sourceList[0]?.chapter;
+																const firstExam = sourceList.find((exam) => exam.chapter === firstChapter && !isLockedFunctionProgressExam(exam)) || sourceList[0];
+																if (firstChapter) setSelectedExamChapter(firstChapter);
+																if (firstExam) setSelectedExamId(firstExam.id);
+															},
+															children: examCategories.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", {
+																value: item.id,
+																children: item.label
+															}, item.id))
+														})]
+													}),
 													selectedExamIsKonkur ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", {
 														className: "exam-topic-select",
-														children: ["۳. آزمون کنکور", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("select", {
+														children: ["۴. آزمون کنکور", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("select", {
 															value: selectedExam.id,
 															onChange: (event) => {
 																const nextExam = visibleKonkurExamدرسs.find((exam) => exam.id === event.target.value);
@@ -39833,7 +39871,7 @@ function App() {
 														})]
 													}) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", {
 														className: "exam-topic-select",
-														children: ["۳. فصل آزمون", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("select", {
+														children: ["۴. فصل آزمون", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("select", {
 															value: activeExamChapter || "",
 															onChange: (event) => {
 																const nextChapter = event.target.value;
@@ -39850,7 +39888,7 @@ function App() {
 														})]
 													}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", {
 														className: "exam-topic-select",
-														children: ["۴. درس آزمون", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("select", {
+														children: ["۵. مبحث / بسته آزمون", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("select", {
 															value: customReviewExam ? selectedExamId : selectedExam.id,
 															onChange: (event) => {
 																const nextExam = visibleChapterExamدرسs.find((exam) => exam.id === event.target.value);
@@ -39875,19 +39913,26 @@ function App() {
 													})] })
 												]
 											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 												className: "exam-category-row",
-												children: [examCategories.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-													href: item.href,
-													children: item.label
-												}, item.id)), visibleKonkurExamدرسs.length ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+												children: examCategories.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 													type: "button",
+													className: selectedExamType === item.id ? "active" : "",
 													onClick: () => {
 														setCustomReviewExam(null);
-														setSelectedExamId(visibleKonkurExamدرسs[0].id);
+														setSelectedExamType(item.id);
+														if (item.id === "konkur") {
+															if (visibleKonkurExamدرسs[0]) setSelectedExamId(visibleKonkurExamدرسs[0].id);
+															return;
+														}
+														const sourceList = item.id === "summary" ? visibleSummaryExamدرسs : visibleTopicExamدرسs;
+														const firstChapter = sourceList[0]?.chapter;
+														const firstExam = sourceList.find((exam) => exam.chapter === firstChapter && !isLockedFunctionProgressExam(exam)) || sourceList[0];
+														if (firstChapter) setSelectedExamChapter(firstChapter);
+														if (firstExam) setSelectedExamId(firstExam.id);
 													},
-													children: "صفحه کنکور کامل"
-												}) : null]
+													children: item.label
+												}, item.id))
 											}),
 											selectedExam.chapter === "تابع" && selectedFunctionPdfNeedFiles ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 												className: "exam-source-links",
