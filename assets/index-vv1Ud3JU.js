@@ -35442,7 +35442,10 @@ function App() {
 		questions: []
 	};
 	const selectedExamIsKonkur = isKonkurExam(selectedExam);
-	const selectedExamRawQuestions = Array.isArray(selectedExam.questions) ? selectedExam.questions.map(enrichQuestionVisual).filter(isPublishableExamQuestion) : [];
+	const selectedExamAllQuestions = Array.isArray(selectedExam.questions) ? selectedExam.questions.map(enrichQuestionVisual).filter(isPublishableExamQuestion) : [];
+	const isPausedVisualQuestion = (question) => Boolean(question.verifiedDiagram || question.verifiedDiagramImage || question.sourceImage || question.verifiedOptionDiagrams?.length || question.verifiedOptionDiagramImages?.length || question.requiresExactDiagram || question.requiresExactOptionDiagrams);
+	const selectedVisualPausedQuestions = selectedExamAllQuestions.filter(isPausedVisualQuestion);
+	const selectedExamRawQuestions = selectedExamAllQuestions.filter((question) => !isPausedVisualQuestion(question));
 	const isMissingExactVisual = (question) => question.requiresExactDiagram && !question.verifiedDiagram && !question.verifiedDiagramImage || question.requiresExactOptionDiagrams && !question.verifiedOptionDiagrams && !question.verifiedOptionDiagramImages;
 	const withheldDiagramQuestions = selectedExamRawQuestions.filter(isMissingExactVisual);
 	const selectedExamQuestions = selectedExamRawQuestions.map((question) => ({
@@ -38893,6 +38896,10 @@ function App() {
 											selectedExam.sourceCount ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 												className: "saber-source-note",
 												children: selectedExamQuestions.length ? `${selectedExam.sourceCount.toLocaleString("fa-IR")} سؤال داخل سایت آماده است؛ پاسخ تشریحی بعد از ثبت آزمون زیر همان سؤال باز می‌شود.` : `${selectedExam.sourceCount.toLocaleString("fa-IR")} سؤال برای این بخش ثبت شده ولی هنوز متن قابل آزمون ندارد.`
+											}) : null,
+											selectedVisualPausedQuestions.length ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+												className: "saber-source-note exact-diagram-warning",
+												children: [selectedVisualPausedQuestions.length.toLocaleString("fa-IR"), " سؤال دارای عکس/جدول/نمودار فعلاً پاز شده‌اند؛ اول بسته‌های متنی همه درس‌ها بسته می‌شوند، بعد کراپ سؤال‌های تصویری اصلاح می‌شود."]
 											}) : null,
 											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 												className: "exam-path-selectors",
